@@ -1,0 +1,66 @@
+
+#extraGlobal{
+    display: flex;
+    flex-direction: row;
+}
+
+/* ------------------------------------ */
+/* Global Galaxy in left of the page */
+#globalGalaxy{
+    width:200px;
+    display: flex;
+    height: 500px;
+    padding: 7px;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+#local_1, #local_2, #local_3{
+    margin: 7px;
+    width: 150px;
+    height: 150px;
+    border: solid black 1px;
+    background-color: aliceblue;
+}
+
+/* ------------------------------------ */
+/* Button action */
+.spaceBetween{ 
+    width: 150px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+#action_1, #action_2, #action_3, #action_4, #action_5 {
+    width: 95px;
+    margin: 10px;
+    height: 45px;
+    padding: 7px;
+    color: white;
+    font-size: 16px;
+    background-color: gray;  
+    border: black;
+}
+
+/* ------------------------------------ */
+/* Global Galaxy in center of the page */
+#globalGalaxy_1{
+    width: 200px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 7px;
+    background-color: aquamarine;
+}
+#local_4 , #local_5 , #local_6{
+    margin: 7px;
+    width: 150px;
+    height: 150px;
+    border: solid gray 1px;
+    background-color: azure;
+}
